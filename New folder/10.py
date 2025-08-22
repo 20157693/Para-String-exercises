@@ -1,9 +1,9 @@
-# Output all characters from asked prompt as capitals.
+# Create dict called 'grades'.
 
-prompt = input("State the sentence:\n")
+grades = {
+    'Fifi': 6,
+    'Riri': 78,
+    'Loulou': 56
+}
 
-new_sentence = ''
-for x in prompt:
-    new_sentence += x.capitalize()
-
-print(new_sentence)
+print(grades)

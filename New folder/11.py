@@ -1,15 +1,9 @@
-# Change all vowels to '*'
+# Print the grade of one specific student.
 
-prompt = input("State the sentence:\n")
+grades = {
+    'Fifi': 6,
+    'Riri': 78,
+    'Loulou': 56
+}
 
-new_sentence = ''
-vowels = ['a','e', 'i', 'o', 'u']
-for x in prompt:
-    if x in vowels:
-        x = '*'
-        new_sentence += x
-    else:
-        new_sentence += x
-
-print(new_sentence)
-    
+print(grades['Fifi'])
